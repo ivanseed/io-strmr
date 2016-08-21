@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Musk';
+  src: url("../fonts/musk.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Musk', sans-serif;
+
+
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #d0d0d0;
+}
+
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Musk', sans-serif;
+    padding-right: 30px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d0d0d0;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+#top-wrapper {
+  margin: auto;
+  background: linear-gradient(231deg, #8952b9, #406baf);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 12s ease infinite;
+  -moz-animation: AnimationName 12s ease infinite;
+  -o-animation: AnimationName 12s ease infinite;
+  animation: AnimationName 12s ease infinite;
+}
+
+#title {
+  color: #fff;
+  font-size: 90px;
+  letter-spacing: 30px;
+  display: table;
+  width:100px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#description {
+  padding-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
