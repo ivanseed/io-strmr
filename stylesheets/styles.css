@@ -33,6 +33,7 @@ html, body {
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
+  border-bottom: 1px solid #fff;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -80,6 +81,7 @@ html, body {
 
 #description {
   padding-top: 15px;
+  padding-bottom: 15px;
   color: #fff;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
