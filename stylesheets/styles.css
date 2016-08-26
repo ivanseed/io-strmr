@@ -16,6 +16,32 @@ html, body {
   font-family: 'Musk', sans-serif;
 }
 
+@media screen and (max-device-width : 530px)
+{
+  #title
+  {
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-device-width : 370px)
+{
+  #title
+  {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-device-width : 330px)
+{
+  #title
+  {
+    font-size: 20px !important;
+    letter-spacing: 10px !important;
+    text-indent: 10px !important;
+  }
+}
+
 .navbar-default .navbar-brand {
     color: #fff;
 }
@@ -79,17 +105,18 @@ html, body {
 #status {
   height: auto;
   width: 100%;
-  border-top: 1px solid #8952b9;
-  border-bottom: 1px solid linear-gradient(231deg, #8952b9, #406baf);
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   display: inline-block;
   margin: 0 auto;
   text-align: center;
-  color: #404040;
+  color: #fff;
 
+/*
   background: -webkit-linear-gradient(#F0EDF2, #E6E3E8);
   background: -o-linear-gradient(#F0EDF2, #E6E3E8);
   background: -moz-linear-gradient(#F0EDF2, #E6E3E8);
-  background: linear-gradient(#F0EDF2, #E6E3E8);
+  background: linear-gradient(#F0EDF2, #E6E3E8);*/
 }
 
 #top-wrapper {
@@ -101,6 +128,8 @@ html, body {
   -o-animation: AnimationName 12s ease infinite;
   animation: AnimationName 12s ease infinite;
   overflow: hidden;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #hero {
@@ -112,6 +141,7 @@ html, body {
   color: #fff;
   font-size: 90px;
   letter-spacing: 30px;
+  text-indent: 30px;
   display: table;
   width:100px;
   height: 100%;
@@ -141,6 +171,7 @@ html, body {
 }
 
 #version {
+  font-size: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: "Roboto", sans-serif;
@@ -158,8 +189,7 @@ html, body {
 }
 
 #strmr-v {
-  background-color: #F7F0F7;
-  border: 1px solid #404040;
+  border: 2px solid #fff;
   border-radius: 2px;
 }
 
