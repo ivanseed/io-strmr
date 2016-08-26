@@ -99,6 +99,12 @@ html, body {
   -moz-animation: AnimationName 12s ease infinite;
   -o-animation: AnimationName 12s ease infinite;
   animation: AnimationName 12s ease infinite;
+  overflow: hidden;
+}
+
+#hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #title {
@@ -154,6 +160,34 @@ html, body {
   background-color: #F5F2F7;
   border: 1px solid #404040;
   border-radius: 2px;
+}
+
+#stars {
+  width: 2px;
+  height: 2px;
+  background-color: red;
+  background: transparent;
+  box-shadow: 1679px 458px #f8c7f2 , 1575px 40px #f8c7f2 , 367px 339px #f8c7f2 , 616px 15px #f8c7f2 , 606px 408px #f8c7f2 , 1227px 150px #f8c7f2 , 437px 174px #f8c7f2 , 1481px 99px #f8c7f2 , 1801px 20px #f8c7f2 , 274px 180px #f8c7f2 , 1263px 212px #f8c7f2 , 422px 98px #f8c7f2 , 330px 84px #f8c7f2 , 311px 47px #f8c7f2 , 1421px 118px #f8c7f2 , 1098px 196px #f8c7f2 , 1401px 57px #f8c7f2 , 845px 233px #f8c7f2 , 1444px 417px #f8c7f2 , 1088px 280px #f8c7f2 , 92px 343px #f8c7f2 , 1583px 212px #f8c7f2 , 881px 117px #f8c7f2 , 883px 373px #f8c7f2 , 643px 482px #f8c7f2 , 1891px 146px #f8c7f2 , 1111px 2px #f8c7f2 , 1826px 381px #f8c7f2 , 1801px 420px #f8c7f2 , 282px 468px #f8c7f2;
+  animation: animStar 15s linear infinite;
+}
+#stars:after {
+  content: " ";
+  position: absolute;
+  color: green;
+  top: -500px;
+  width: 2px;
+  height: 2px;
+  background: red;
+  box-shadow: 1679px 458px #f8c7f2 , 1575px 40px #f8c7f2 , 367px 339px #f8c7f2 , 616px 15px #f8c7f2 , 606px 408px #f8c7f2 , 1227px 150px #f8c7f2 , 437px 174px #f8c7f2 , 1481px 99px #f8c7f2 , 1801px 20px #f8c7f2 , 274px 180px #f8c7f2 , 1263px 212px #f8c7f2 , 422px 98px #f8c7f2 , 330px 84px #f8c7f2 , 311px 47px #f8c7f2 , 1421px 118px #f8c7f2 , 1098px 196px #f8c7f2 , 1401px 57px #f8c7f2 , 845px 233px #f8c7f2 , 1444px 417px #f8c7f2 , 1088px 280px #f8c7f2 , 92px 343px #f8c7f2 , 1583px 212px #f8c7f2 , 881px 117px #f8c7f2 , 883px 373px #f8c7f2 , 643px 482px #f8c7f2 , 1891px 146px #f8c7f2 , 1111px 2px #f8c7f2 , 1826px 381px #f8c7f2 , 1801px 420px #f8c7f2 , 282px 468px #f8c7f2;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(500px);
+  }
 }
 
 @-webkit-keyframes AnimationName {
