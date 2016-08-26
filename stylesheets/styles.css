@@ -66,6 +66,7 @@ html, body {
   padding-left: 30px;
 }
 
+
 .break {
   width: 80%;
   height: 3px;
@@ -73,17 +74,13 @@ html, body {
   margin-top: 40px;
   margin-bottom: 40px;
   background: linear-gradient(231deg, #8952b9, #406baf);
-  -webkit-animation: AnimationName 12s ease infinite;
-  -moz-animation: AnimationName 12s ease infinite;
-  -o-animation: AnimationName 12s ease infinite;
-  animation: AnimationName 12s ease infinite;
 }
 
 #status {
   height: auto;
   width: 100%;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #8952b9;
+  border-bottom: 1px solid linear-gradient(231deg, #8952b9, #406baf);
   display: inline-block;
   margin: 0 auto;
   text-align: center;
@@ -131,7 +128,7 @@ html, body {
 
 #content {
   display: inline-block;
-  height: 100%;
+  height: auto;
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -171,7 +168,7 @@ html, body {
   height: 3px;
   background: transparent;
   box-shadow: 1679px 458px rgba(255, 255, 255, 0.5) , 1575px 40px rgba(255, 255, 255, 0.5) , 367px 339px rgba(255, 255, 255, 0.5) , 616px 15px rgba(255, 255, 255, 0.5) , 606px 408px rgba(255, 255, 255, 0.5) , 1227px 150px rgba(255, 255, 255, 0.5) , 437px 174px rgba(255, 255, 255, 0.5) , 1481px 99px rgba(255, 255, 255, 0.5) , 1801px 20px rgba(255, 255, 255, 0.5) , 274px 180px rgba(255, 255, 255, 0.5) , 1263px 212px rgba(255, 255, 255, 0.5) , 422px 98px rgba(255, 255, 255, 0.5) , 330px 84px rgba(255, 255, 255, 0.5) , 311px 47px rgba(255, 255, 255, 0.5) , 1421px 118px rgba(255, 255, 255, 0.5) , 1098px 196px rgba(255, 255, 255, 0.5) , 1401px 57px rgba(255, 255, 255, 0.5) , 845px 233px rgba(255, 255, 255, 0.5) , 1444px 417px rgba(255, 255, 255, 0.5) , 1088px 280px rgba(255, 255, 255, 0.5) , 92px 343px rgba(255, 255, 255, 0.5) , 1583px 212px rgba(255, 255, 255, 0.5) , 881px 117px rgba(255, 255, 255, 0.5) , 883px 373px rgba(255, 255, 255, 0.5) , 643px 482px rgba(255, 255, 255, 0.5) , 1891px 146px rgba(255, 255, 255, 0.5) , 1111px 2px rgba(255, 255, 255, 0.5) , 1826px 381px rgba(255, 255, 255, 0.5) , 1801px 420px rgba(255, 255, 255, 0.5) , 282px 468px rgba(255, 255, 255, 0.5);
-  animation: animStar 8s linear infinite;
+  animation: animStar 4s linear infinite;
 }
 #stars:after {
   content: " ";
@@ -187,7 +184,7 @@ html, body {
   height: 2px;
   background: transparent;
   box-shadow: 9px 434px rgba(255, 255, 255, 0.3) , 1558px 96px rgba(255, 255, 255, 0.3) , 1509px 162px rgba(255, 255, 255, 0.3) , 1840px 271px rgba(255, 255, 255, 0.3) , 1256px 278px rgba(255, 255, 255, 0.3) , 44px 206px rgba(255, 255, 255, 0.3) , 18px 135px rgba(255, 255, 255, 0.3) , 686px 267px rgba(255, 255, 255, 0.3) , 1524px 23px rgba(255, 255, 255, 0.3) , 187px 430px rgba(255, 255, 255, 0.3) , 423px 457px rgba(255, 255, 255, 0.3) , 1479px 218px rgba(255, 255, 255, 0.3) , 1252px 238px rgba(255, 255, 255, 0.3) , 1295px 144px rgba(255, 255, 255, 0.3) , 835px 260px rgba(255, 255, 255, 0.3) , 1331px 128px rgba(255, 255, 255, 0.3) , 692px 274px rgba(255, 255, 255, 0.3) , 742px 374px rgba(255, 255, 255, 0.3) , 231px 370px rgba(255, 255, 255, 0.3) , 703px 88px rgba(255, 255, 255, 0.3) , 827px 217px rgba(255, 255, 255, 0.3) , 1221px 273px rgba(255, 255, 255, 0.3) , 1018px 263px rgba(255, 255, 255, 0.3) , 134px 313px rgba(255, 255, 255, 0.3) , 1822px 422px rgba(255, 255, 255, 0.3) , 318px 237px rgba(255, 255, 255, 0.3) , 157px 64px rgba(255, 255, 255, 0.3) , 871px 165px rgba(255, 255, 255, 0.3) , 160px 249px rgba(255, 255, 255, 0.3) , 1982px 383px rgba(255, 255, 255, 0.3) , 93px 278px rgba(255, 255, 255, 0.3) , 1560px 64px rgba(255, 255, 255, 0.3) , 740px 454px rgba(255, 255, 255, 0.3) , 1510px 57px rgba(255, 255, 255, 0.3) , 603px 255px rgba(255, 255, 255, 0.3) , 1038px 144px rgba(255, 255, 255, 0.3) , 45px 30px rgba(255, 255, 255, 0.3) , 174px 372px rgba(255, 255, 255, 0.3) , 1281px 492px rgba(255, 255, 255, 0.3) , 1277px 142px rgba(255, 255, 255, 0.3) , 321px 124px rgba(255, 255, 255, 0.3) , 861px 470px rgba(255, 255, 255, 0.3) , 617px 9px rgba(255, 255, 255, 0.3) , 1090px 337px rgba(255, 255, 255, 0.3) , 931px 500px rgba(255, 255, 255, 0.3) , 953px 174px rgba(255, 255, 255, 0.3) , 1942px 390px rgba(255, 255, 255, 0.3) , 1259px 153px rgba(255, 255, 255, 0.3) , 675px 355px rgba(255, 255, 255, 0.3) , 1597px 318px rgba(255, 255, 255, 0.3) , 800px 152px rgba(255, 255, 255, 0.3) , 1649px 337px rgba(255, 255, 255, 0.3) , 752px 413px rgba(255, 255, 255, 0.3) , 1824px 399px rgba(255, 255, 255, 0.3) , 462px 198px rgba(255, 255, 255, 0.3) , 1408px 127px rgba(255, 255, 255, 0.3) , 758px 275px rgba(255, 255, 255, 0.3) , 867px 293px rgba(255, 255, 255, 0.3) , 1311px 429px rgba(255, 255, 255, 0.3) , 450px 169px rgba(255, 255, 255, 0.3) , 597px 456px rgba(255, 255, 255, 0.3) , 1008px 35px rgba(255, 255, 255, 0.3) , 1327px 195px rgba(255, 255, 255, 0.3) , 1339px 257px rgba(255, 255, 255, 0.3) , 1038px 150px rgba(255, 255, 255, 0.3) , 1961px 131px rgba(255, 255, 255, 0.3) , 1671px 231px rgba(255, 255, 255, 0.3) , 366px 88px rgba(255, 255, 255, 0.3) , 589px 395px rgba(255, 255, 255, 0.3) , 100px 90px rgba(255, 255, 255, 0.3) , 141px 286px rgba(255, 255, 255, 0.3) , 1145px 413px rgba(255, 255, 255, 0.3) , 891px 124px rgba(255, 255, 255, 0.3) , 312px 154px rgba(255, 255, 255, 0.3) , 1701px 372px rgba(255, 255, 255, 0.3) , 942px 423px rgba(255, 255, 255, 0.3) , 288px 428px rgba(255, 255, 255, 0.3) , 410px 145px rgba(255, 255, 255, 0.3) , 1462px 153px rgba(255, 255, 255, 0.3) , 1690px 251px rgba(255, 255, 255, 0.3) , 638px 475px rgba(255, 255, 255, 0.3) , 1610px 281px rgba(255, 255, 255, 0.3) , 481px 92px rgba(255, 255, 255, 0.3) , 267px 395px rgba(255, 255, 255, 0.3) , 578px 58px rgba(255, 255, 255, 0.3) , 1165px 140px rgba(255, 255, 255, 0.3) , 630px 483px rgba(255, 255, 255, 0.3) , 1163px 54px rgba(255, 255, 255, 0.3) , 1138px 464px rgba(255, 255, 255, 0.3) , 1456px 299px rgba(255, 255, 255, 0.3) , 714px 210px rgba(255, 255, 255, 0.3) , 1137px 261px rgba(255, 255, 255, 0.3) , 1248px 460px rgba(255, 255, 255, 0.3) , 499px 498px rgba(255, 255, 255, 0.3) , 679px 123px rgba(255, 255, 255, 0.3) , 940px 18px rgba(255, 255, 255, 0.3) , 1085px 271px rgba(255, 255, 255, 0.3) , 1390px 125px rgba(255, 255, 255, 0.3) , 234px 311px rgba(255, 255, 255, 0.3) , 1067px 124px rgba(255, 255, 255, 0.3);
-  animation: animStar 4s linear infinite;
+  animation: animStar 6s linear infinite;
 }
 #stars2:after {
   content: " ";
