@@ -64,16 +64,19 @@ html, body {
   border-bottom: 2px solid #fff;
 }
 
+.navbar-default .navbar-nav>li {
+  padding-right: 30px;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     font-size: 18px;
     font-family: 'Musk', sans-serif;
-    padding-right: 30px;
-    padding-bottom: 17px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #EBB4ED;
+    color: #fff;
+    background-color: rgba(235, 180, 237, 0.3);
 }
 
 .navbar-default .navbar-nav>li>a:focus {
