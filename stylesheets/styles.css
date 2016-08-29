@@ -198,6 +198,18 @@ html, body {
   border: 2px solid #fff;
   border-radius: 2px;
 }
+
+#footer {
+  z-index: -5;
+  background-image: url("../assets/footer-bg.svg");
+  background-size: cover;
+  height: 300px;
+  opacity: 0.8;
+}
+
+#footer .container-fluid {
+  z-index: -1;
+}
 /*
 #stars {
   width: 3px;
