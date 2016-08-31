@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>STRMR.IO</title>
+  <title>strmr</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/fav-icon.png">
   <script src="stylesheets/jquery.min.js"></script>
   <script src="stylesheets/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css"/>
@@ -36,7 +37,8 @@
   </nav>
   <div class="container" id="hero">
     <div class="row-fluid">
-      <div class="text-center">
+      <div class="text-center" id="hero-content">
+        <img id="hero-logo" src="assets/hero-logo.png" height="300px" />
         <h1 id="title">STRMR</h1>
         <p id="description">A way to watch your favourite streams in a navtive desktop app.</p>
       </div>
@@ -47,7 +49,6 @@
     <div class="container" id="version">
       <span id="strmr-v">STRMR: v0.0.1</span>
       <span id="middle-v">Electron: v1.3.3</span>
-      <span>React: v15.3.1</span>
     </div>
   </div>
 </div><!-- Top Wrapper end -->
@@ -63,6 +64,19 @@
 </div>
 <div id="footer">
   <div class="container-fluid">
+      <div id="footer-wrapper">
+        <div id="footer-links">
+          <a href="#">About</a>
+          <a href="#">Download</a>
+        </div>
+        <div id="footer-break">
+        </div>
+        <div id="footer-made">
+          <a class="colour"><img src="assets/made.png" width="20px" height="20px" /><span class="footer-pad"> with </span></a>
+          <a class="colour"><img src="assets/love.png" onmouseover="this.src='assets/plove.png'" onmouseout="this.src='assets/love.png'" width="20px" height="20px" /><span class="footer-pad"> with </span></a>
+          <a class="colour" href="https://github.com/ivanseed"><img src="assets/github.png" onmouseover="this.src='assets/hgithub.png'" onmouseout="this.src='assets/github.png'" width="20px" height="20px" /></a>
+        </div>
+      </div>
   </div>
 </div>
 </body>
