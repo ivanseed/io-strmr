@@ -120,7 +120,8 @@ html, body {
 }
 
 #buttons {
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #buttons button {
