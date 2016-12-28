@@ -134,6 +134,24 @@ html, body {
   border-color: #9966ff;
 }
 
+#logo {
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+#logo-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: -75px;
+  margin-left: -75px;
+  z-index: 11;
+}
+
 #buttons .btn-info span {
   padding-right: 10px;
 }
@@ -181,4 +199,224 @@ html, body {
 
 .footer-pad {
   padding-left: 6px;
+}
+
+#logo-d2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    z-index: 10;
+    animation: logoSpinD2 7.5s infinite ease-out;
+}
+
+#logo-csgo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 25px;
+    width: 50px;
+    margin-top: -10px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinCSGO 10.5s infinite ease-out;
+}
+
+#logo-h1z1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 23px;
+    width: 45px;
+    margin-top: -10px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinH1Z1 8s infinite ease-out;
+}
+
+#logo-hs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 35px;
+    width: 60px;
+    margin-top: -10px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinHS 10s infinite ease-out;
+}
+
+#logo-lol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    width: 60px;
+    margin-top: -10px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinlol 6s infinite ease-out;
+}
+
+#logo-rs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    width: 60px;
+    margin-top: -10px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinrs 5.5s infinite ease-out;
+}
+
+#logo-mc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 18px;
+    width: 70px;
+    margin-top: -10px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinmc 9s infinite ease-out;
+}
+
+#logo-ow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: -20px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinow 11s infinite ease-out;
+}
+
+#logo-rl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: -20px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinrl 7s infinite ease-out;
+}
+
+#logo-wow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: -20px;
+    margin-left: -20px;
+    z-index: 10;
+    animation: logoSpinwow 8.5s infinite ease-out;
+}
+
+@keyframes logoSpinD2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-195px, -30px) rotate(400deg);
+  }
+}
+
+@keyframes logoSpinCSGO {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, -200px) rotate(-700deg);
+  }
+}
+
+@keyframes logoSpinH1Z1 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-135px, -135px) rotate(300deg);
+  }
+}
+
+@keyframes logoSpinHS {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-125px, 125px) rotate(-200deg);
+  }
+}
+
+@keyframes logoSpinlol {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 125px) rotate(-400deg);
+  }
+}
+
+@keyframes logoSpinow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-200px, 75px) rotate(2000deg);
+  }
+}
+
+@keyframes logoSpinmc {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(120px, 125px) rotate(200deg);
+  }
+}
+
+@keyframes logoSpinrl {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(175px, 0px) rotate(900deg);
+  }
+}
+
+@keyframes logoSpinrs {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(180px, -75px) rotate(650deg);
+  }
+}
+
+@keyframes logoSpinwow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(180px, -175px) rotate(350deg);
+  }
 }
