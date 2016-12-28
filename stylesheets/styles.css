@@ -1,68 +1,36 @@
-@font-face {
-  font-family: 'Musk';
-  src: url("../fonts/musk.ttf");
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-
 html, body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Musk', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
 }
 
 @media screen and (max-device-width : 530px)
 {
-  #title
-  {
-    font-size: 70px !important;
-    letter-spacing: 10px !important;
-    text-indent: 10px !important;
-  }
-}
 
-@media screen and (max-device-width : 370px)
-{
-  #title
-  {
-    font-size: 70px !important;
-    letter-spacing: 10px !important;
-    text-indent: 10px !important;
-  }
-}
-
-@media screen and (max-device-width : 320px)
-{
-  #title
-  {
-    font-size: 50px !important;
-    letter-spacing: 10px !important;
-    text-indent: 10px !important;
-  }
 }
 
 .navbar-default .navbar-brand {
-    color: #f5f5f5;
+    color: #6441A4;
+    letter-spacing: -2px;
+    font-weight: 700;
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #EBB4ED;
+    color: #E167E6;
 }
 
 .navbar-default .navbar-brand:focus {
-    color: #f5f5f5;
+    color: #E167E6;
 }
 
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
-  border-bottom: 2px solid #f5f5f5;
-  z-index: 1;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .navbar-default .navbar-nav>li {
@@ -70,22 +38,21 @@ html, body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #f5f5f5;
-    font-size: 18px;
-    font-family: 'Musk', sans-serif;
+    color: #6441A4;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #f5f5f5;
-    background-color: rgba(235, 180, 237, 0.3);
+    color: #E167E6;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
-    color: #f5f5f5;
+    color: #E167E6;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #f5f5f5;
+    background-color: #6441A4;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -93,13 +60,12 @@ html, body {
 }
 
 .navbar-default .navbar-toggle:hover {
-  border-color: #EBB4ED;
+  border-color: #6441A4;
 }
 
 .navbar-default .navbar-brand {
   padding-left: 30px;
 }
-
 
 .break {
   width: 80%;
@@ -110,70 +76,33 @@ html, body {
   background: linear-gradient(231deg, #8952b9, #406baf);
 }
 
-#status {
-  height: auto;
-  width: 100%;
-  border-top: 2px solid #f5f5f5;
-  border-bottom: 2px solid #f5f5f5;
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
-  color: #f5f5f5;
-}
-
 #top-wrapper {
   margin: auto;
-  background: linear-gradient(231deg, #8952b9, #406baf);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 12s ease infinite;
-  -moz-animation: AnimationName 12s ease infinite;
-  -o-animation: AnimationName 12s ease infinite;
-  animation: AnimationName 12s ease infinite;
   overflow: hidden;
   padding-left: 0px;
   padding-right: 0px;
+  min-height: 100%;
 }
 
 #hero {
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 60px;
 }
 
-#hero-content {
-  position: relative;
-}
-
-#hero-logo {
-  position: absolute;
-  left: 50%;
-  margin-top: -80px;
-  margin-left: -150px;
-  opacity: 0.1;
-  z-index: 0;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-#title {
-  color: #f5f5f5;
-  font-size: 90px;
-  letter-spacing: 30px;
-  text-indent: 30px;
-  display: table;
-  width:100px;
-  height: 100%;
+#description-wrapper {
+  max-width: 500px;
   margin: 0 auto;
 }
 
 #description {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #f5f5f5;
+  padding-top: 50px;
+  color: #404040;
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans ', sans-serif;
+}
+
+#description span {
+  color: #6441A4;
 }
 
 #content {
@@ -181,86 +110,46 @@ html, body {
   display: inline-block;
   height: auto;
   width: 100%;
-  background-color: #f2f2f2;
 }
 
 #content .container {
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 40px;
   padding-bottom: 100px;
   max-width: 800px;
 }
 
-#version {
-  font-size: 15px;
+#buttons {
   padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: "Roboto", sans-serif;
 }
 
-#version span {
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+#buttons button {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-#version #middle-v {
-  padding-right: 50px;
-  padding-left: 50px;
+#buttons .btn-success {
+  background-color: #aa80ff;
+  border-color: #9966ff;
 }
 
-#strmr-v {
-  border: 2px solid #f5f5f5;
-  border-radius: 2px;
+#buttons .btn-info span {
+  padding-right: 10px;
+}
+
+#buttons .btn-success span {
+  padding-left: 10px;
 }
 
 #footer {
   margin: auto;
-  background: linear-gradient(231deg, #8952b9, #406baf);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 12s ease infinite;
-  -moz-animation: AnimationName 12s ease infinite;
-  -o-animation: AnimationName 12s ease infinite;
-  animation: AnimationName 12s ease infinite;
   overflow: hidden;
   padding-left: 0px;
   padding-right: 0px;
-  border-top: 2px solid #f5f5f5;
 }
 
 #footer .container-fluid {
   z-index: -1;
-}
-
-#footer-wrapper {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-
-#footer-links {
-  white-space: pre-line;
-}
-
-#footer-links a {
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  color: #f5f5f5;
-  margin-top: 10px;
-}
-
-#footer-links a:hover {
-  color: #EBB4ED;
-}
-
-#footer-break {
-  height: 2px;
-  background-color: #f5f5f5;
-  margin: 20px auto 20px auto;
-  width: 80%;
 }
 
 #footer-bottom {
@@ -291,25 +180,4 @@ html, body {
 
 .footer-pad {
   padding-left: 6px;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:91% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:91% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:91% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:91% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:91% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:91% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:91% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:91% 0%}
 }

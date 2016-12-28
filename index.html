@@ -3,9 +3,10 @@
 <head>
   <title>strmr</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="assets/fav-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png">
   <script src="stylesheets/jquery.min.js"></script>
   <script src="stylesheets/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
 
@@ -13,6 +14,7 @@
 
 <body>
 <div class="container-fluid" id="top-wrapper">
+
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -23,39 +25,40 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">STRMR.IO</a>
+        <a class="navbar-brand" href="#">strmr</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
+          <li><a href="#">Source</a></li>
           <li><a href="#">Download</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+
   <div class="container" id="hero">
     <div class="row-fluid">
-      <div class="text-center" id="hero-content">
-        <img id="hero-logo" src="assets/hero-logo.png" height="300px" />
-        <h1 id="title">STRMR</h1>
-        <p id="description">A way to watch your favourite streams in a navtive desktop app.</p>
+      <div id="description-wrapper" class="text-center">
+        <img src="./assets/strmrlogo.png" height="150px"/>
+        <p id="description"><span>Twitch in a desktop app.</span> A way to watch your favourite Twitch streamers anytime you want.</p>
       </div>
     </div>
   </div>
 
-  <div id="status">
-    <div class="container" id="version">
-      <span id="strmr-v">STRMR: v0.0.1</span>
-      <span id="middle-v">Electron: v1.3.3</span>
+  <div id="buttons">
+    <div class="container text-center">
+      <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-console" aria-hidden="true"></span>Source Code</button>
+      <button type="button" class="btn btn-success">Download<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></button>
     </div>
   </div>
 </div><!-- Top Wrapper end -->
 
 <div id="content">
     <div class="container">
-      <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+      <p>
+        Standard Disclaimer: Strmr is an open source project and is in no way associated with Twitch the company, all views and opinions expressed are not representing Twitch.
       </p>
       <hr class="break"/>
       <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -65,16 +68,7 @@
 <div id="footer">
   <div class="container-fluid">
       <div id="footer-wrapper">
-        <div id="footer-links">
-          <a href="#">About</a>
-          <a href="#">Download</a>
-        </div>
         <div id="footer-break">
-        </div>
-        <div id="footer-made">
-          <a class="colour"><img src="assets/made.png" width="20px" height="20px" /><span class="footer-pad"> with </span></a>
-          <a class="colour"><img src="assets/love.png" onmouseover="this.src='assets/plove.png'" onmouseout="this.src='assets/love.png'" width="20px" height="20px" /><span class="footer-pad"> with </span></a>
-          <a class="colour" href="https://github.com/ivanseed"><img src="assets/github.png" onmouseover="this.src='assets/hgithub.png'" onmouseout="this.src='assets/github.png'" width="20px" height="20px" /></a>
         </div>
       </div>
   </div>
